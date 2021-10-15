@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul li a:hover {
+    background-color: #00a8ad;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+}
+
+.citi {
+    color: #00a8ad;
+}
+
+.header {
+    background: url('homepage.jpg');
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header div {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.h1-text1 {
+    font-size: 4rem;
+    margin-bottom: 0.6rem;
+}
+
+.p-text1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #00a8ad;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    width: 6.7rem;
+}
+
+#Services {
+    display: flex;
+    flex: 1;
+}
+
+.container {
+    margin: 10px auto;
+    width: 74rem;
+}
+
+.h3-text {
+    text-align: center;
+}
+
+.cards-p {
+    font-size: 1rem;
+    margin: 10px auto;
+}
+
+.cards {
+    text-align: center;
+    padding: 1.3rem;
+    font-family: 'Noto Sans JP', sans-serif
+}
