@@ -1,0 +1,99 @@
+#top_nav {
+    background-color: #daac00;
+    padding: 0 8%
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#searchbox {
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 47px;
+    box-shadow: 5px 10px 10px 0px #00000021;
+}
+
+#searchbtn {
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+}
+
+#searchbox::placeholder {
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+    #searchform {
+        margin-bottom: 30px;
+        margin-bottom: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #top_nav {
+        padding: 0;
+    }
+}
+
+
+/* banner */
+
+#banner {
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+
+#bannertext h1 {
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+#bannertext p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#bannerbtn1 {
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+
+#bannerbtn2 {
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width:1300px) {
+    #banner h1 {
+        font-size: 50px;
+    }
+    #banner {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    #banner h1 {
+        font-size: 40px;
+    }
+    #bannerimg img {
+        padding-bottom: 70px;
+    }
+}
