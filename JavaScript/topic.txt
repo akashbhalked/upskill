@@ -1,0 +1,41 @@
+1) diff between let and const
+
+2) default parameters
+    function sum(a="hi"){
+
+    }
+
+3) Rest parameters
+   function sum(...args){
+     console.log(args)
+    }
+    example 1: sum(2,3)
+    example2: sume(3,4,5,6)
+
+4) Spread operatorder
+   let arr1= [2,3]
+   let arr2 = [4,5,...arr1]
+
+5) Array Destructering
+   let arr1 = [2,3,4]
+   let[a,b,c] = arr1;
+   console.log(a)//2
+   console.log(b)//3
+   console.log(c)//4
+
+   let arr1 = [2,3,4,[5,6]]
+   let[a,b,c,[d,f]] = arr1;
+
+6) Object Destructering
+   let obj1 = {
+       name : "abc",
+       age:25
+   }
+   //keeping same key name
+   let{name,age} = obj1;
+   console.log(name)//abc
+   //assigning to other key name
+    let{name : firstName, age} = obj1;
+    console.log(firstName)//abc
+
+

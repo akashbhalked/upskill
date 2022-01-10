@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <style>
+        body {
+            padding: 50px 100px;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #006780;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        textarea {
+            width: 99.2%;
+            border-color: #006780;
+        }
+
+        p {
+            text-align: center;
+            background-color: #006780;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Word counter</h1>
+    <textarea id="textbox" id="" cols="30" rows="10"></textarea>
+    <p>
+        <span id="word">0</span> words and
+        <span id="char">0</span> characters
+    </p>
+    <script>
+        let textBox = document.getElementById("textbox")
+        textBox.addEventListener("input", function () {
+            let textCount = this.value;
+            let charCount = textCount.length;
+            textCount = textCount.trim();
+            let words = textCount.split(" ");
+            let cleanList = words.filter(function (elm) {
+                return elm != "";
+            });
+            document.getElementById("word").innerHTML = cleanList.length;
+            document.getElementById("char").innerHTML = charCount;
+        })
+    </script>
+</body>
+
+</html>
