@@ -1,1 +1,15 @@
-# learn HTML5,CSS3,Bootstrap,JS,DSA
+# compny names
+atlassian
+paypal
+adobe
+sony
+samsung
+nutanix
+intel
+epam
+thoughworks
+netapp
+intuit
+salesforce
+SAP
+Shell
