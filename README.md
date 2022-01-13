@@ -13,3 +13,27 @@ intuit
 salesforce
 SAP
 Shell
+Informatica
+McAfee
+amazom
+Amdocs  
+BMC
+CISCO  
+Tejas networks
+Rockstar games 
+Symantec
+QuickHeal
+twitter
+truecaller
+Siemens Technology
+cerner
+Red Hat India
+NVIDIA
+Harman
+Broadcom
+Deutsche Bank
+Nference
+citi bank
+visa
+master card
+JP morgon
