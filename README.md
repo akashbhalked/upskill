@@ -37,6 +37,7 @@ citi bank
 visa
 master card
 JP morgon
+Wells Fargo
 principal global
 amadeus
 inmobi
@@ -46,4 +47,27 @@ zomato'
 flipkart
 swiggy
 uber
-
+bank of america
+Ericsson
+Qualcomm
+target
+Goldman Sachs
+Honeywell
+Verizon
+Barclays
+Nokia
+Publicis Sapient
+Morgan Stanley
+Fidelity Investments
+adobe
+Freelancer.com
+vmware
+natwest group
+Schneider
+First Student
+Philip
+Persistent Systems
+shell
+teleperformance
+Bain & Company
+NVIDIA
