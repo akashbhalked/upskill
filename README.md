@@ -37,3 +37,13 @@ citi bank
 visa
 master card
 JP morgon
+principal global
+amadeus
+inmobi
+onmobile
+ola
+zomato'
+flipkart
+swiggy
+uber
+
