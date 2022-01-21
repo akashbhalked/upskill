@@ -33,9 +33,10 @@ console.log(binarySearch([1, 2, 3, 4, 5, 6], 8)); // -1
 console.log(binarySearch([1, 2, 3, 4, 5, 6], 2)); //2
 
 
-//One array of integers is given as an input ,which is initially increasing and then decreasing or it can be only 
-//increasing or decreasing, you need to find the maximum value in the array in O(Log n) 
-//Time complexity and O(1) Space Complexity Asked in
+/**One array of integers is given as an input ,which is initially increasing and then decreasing or it can be only 
+ *increasing or decreasing, you need to find the maximum value in the array in O(Log n) 
+ * Time complexity and O(1) Space Complexity Asked in
+ */
 function findMaximumValue(array, low, high) {
     /*Only one element is present in array1[low..high]*/
     if (low == high)
@@ -72,4 +73,42 @@ function findMaximumValue(array, low, high) {
 
 
 let arr = [1, 3, 50, 10, 9, 7, 6]
-console.log(findMaximumValue(arr, 0, arr.length - 1)) //50
+console.log(findMaximumValue(arr, 0, arr.length - 1)) // 50
+
+
+
+
+
+/**
+ * Array consist of only 0's, 1's and 2's. 
+ * Write an algorithm to sort  this array in O(n) time complexity and O(1) Space complexity with only one traversal
+ */
+function Sort(array, end) {
+    let start = 0,
+        mid = 0;
+    let pivot = 1;
+
+    while (mid <= end) {
+        if (array[mid] < pivot) { //current element is 0
+            swap(array, start, mid);
+            ++start;
+            ++mid;
+        } else if (array[mid] > pivot) { //current element is 2
+            swap(array, mid, end);
+            --end;
+        } else //current element is 1
+            ++mid;
+    }
+    return array
+}
+//Function to swap two elements array[i] and array[j] in the array
+function swap(array, i, j) {
+    let temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+
+}
+
+let array = [2, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1];
+
+console.log(Sort(array, array.length - 1)) //[0, 0, 0, 0, 1,1, 1, 1, 1, 2,2, 2]
